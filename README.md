@@ -2,8 +2,6 @@
 
 ## 致敬开源精神 净化网络环境
 
-### 不只是 QuantumultX 脚本
-
 ![GitHub contributors](https://img.shields.io/github/contributors/fmz200/wool_scripts?style=for-the-badge)
 ![GitHub stars](https://img.shields.io/github/stars/fmz200/wool_scripts?color=ffd700&style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/fmz200/wool_scripts?color=60c5ba&style=for-the-badge)
@@ -16,7 +14,7 @@
 
 <p align="center">
   <a href="https://github.com/fmz200/wool_scripts">
-    <img src="pic/logo/logo05.png" alt="Logo" width="396" height="109">
+    <img src="pic/logo/logo05.png" alt="Logo" width="400" height="110">
   </a>
 </p>
 
@@ -36,7 +34,11 @@
 
 ▶️ 本项目中的内容请不要在中国大陆的任何平台传播。
 
-▶️ 交流群组：张军配置👉🏻[苹果iOS去广告交流群](https://t.me/lanjieguanggao)，备用群组👉🏻[去广告交流备用|群组](https://t.me/ddgksf2021_chat)。
+▶️ <span style="color: #F44336">Please do not disseminate the content in this project on any platform in mainland China. Thanks!</span>
+
+▶️ 交流群组：👉🏻[苹果iOS去广告交流群](https://t.me/lanjieguanggao)，👉🏻[奶思|频道](https://t.me/inaisi)。
+
+![#c62828](https://via.placeholder.com/15/c62828/000000?text=+)
 
 ---
 
@@ -50,6 +52,8 @@
 "isp"`那就是家庭宽带，其他值（比如：hosting，business）都不是家宽。
 
 常见的抖音分流有：
+> https://github.com/fmz200/wool_scripts/raw/main/QuantumultX/filter/DouYin.list
+>
 > https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/DouYin/DouYin.list
 
 ### 2️⃣ 为什么有些软件明明很热门，却没有人做去广告的规则
@@ -73,83 +77,65 @@
 >
 > 📍 这里也有**Hell Cell**大佬的[视频教程](https://youtu.be/e8E8dtFaFUk)，强烈建议小白在配置前认真观看几遍！
 
-| #  | 配置类型    | 配置名称          | 配置链接                                                                                                                        | 作者                                  | 特别说明                           | 使用教程                                                   |
-|----|---------|---------------|-----------------------------------------------------------------------------------------------------------------------------|-------------------------------------|--------------------------------|--------------------------------------------------------|
-| 01 | 全局配置    | `懒人配置`        | [QuanX.conf](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/config/QuanX.conf)                    | [fmz200](https://github.com/fmz200) | 下载此文件会覆盖原本所有配置                 | [点击查看](./QuantumultX/config/00-How-To-Use-Config.md)   |
-| 02 | 重写      | `去广告合集`       | [chongxie.txt](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt)                 | [fmz200](https://github.com/fmz200) | 去广告合集，不包含微博                    | [点击查看](./QuantumultX/rewrite/00-How-To-Use-Rewrite.md) |
-| 03 | 重写      | `微博去广告`       | [weibo.snippet](https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/weibo.snippet)                             | [RuCu6](https://github.com/RuCu6)   | 包含净化，去除了一些不需要的模块               | [点击查看](./QuantumultX/rewrite/00-How-To-Use-Rewrite.md) |
-| 05 | 重写      | `微博去广告`       | [fmz200_weibo.snippet](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/fmz200_weibo.snippet) | [fmz200](https://github.com/fmz200) | 自用的配置                          | [点击查看](./QuantumultX/rewrite/00-How-To-Use-Rewrite.md) |
-| 06 | 重写      | `获取cookie合集`  | [cookies.snippet](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cookies.snippet)           | [fmz200](https://github.com/fmz200) | 包含NobyDa，chavyleung，Sunert等    | 暂无                                                     |
-| 07 | 分流      | `去广告合集`       | [fenliuxiu.list](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliuxiu.list)              | [fmz200](https://github.com/fmz200) | 无                              | [点击查看](./QuantumultX/filter/00-How-To-Use-Filter.md)   |
-| 08 | 分流      | `分流修正`        | [fenliuxiuzheng.list](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliuxiuzheng.list)    | [fmz200](https://github.com/fmz200) | 无                              | [点击查看](./QuantumultX/filter/00-How-To-Use-Filter.md)   |
-| 09 | 分流      | `屏蔽苹果系统更新`    | [apple.snippet](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/apple.snippet)                | [fmz200](https://github.com/fmz200) | 有效性未知                          | [点击查看](./QuantumultX/filter/00-How-To-Use-Filter.md)   |
-| 10 | 分流      | `OpenAI分流`    | [OpenAI.snippet](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/OpenAI.snippet)              | [fmz200](https://github.com/fmz200) | 初始版本，有问题欢迎反馈                   | [点击查看](./QuantumultX/filter/00-How-To-Use-Filter.md)   |
-| 11 | BoxJS订阅 | `BoxJS订阅`     | [fmz200.boxjs.json](https://raw.githubusercontent.com/fmz200/wool_scripts/main/boxjs/fmz200.boxjs.json)                     | [fmz200](https://github.com/fmz200) | 先查看使用教程                        | [点击查看](https://docs.boxjs.app)                         |
-| 12 | Task订阅  | `Task订阅`      | [fmz200_gallery.json](https://raw.githubusercontent.com/fmz200/wool_scripts/main/boxjs/fmz200_gallery.json)                 | [fmz200](https://github.com/fmz200) | 需要先获取cookie或token再运行           | 暂无                                                     |
-| 13 | icons图标 | `icons图标`     | [icons-all.json](https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/icons-all.json)                           | [fmz200](https://github.com/fmz200) | 包含APP，机场，LPL等大量图标              | 暂无                                                     |
-| 14 | 重写      | `App&小程序净化合集` | [cleanup.snippet](https://github.com/fmz200/wool_scripts/raw/main/QuantumultX/rewrite/cleanup.snippet)                      | [fmz200](https://github.com/fmz200) | 常见的微信小程序净化                     | 暂无                                                     |
+| # | 配置类型    | 配置名称          | 配置链接                                                                                                                     | 作者                                  | 特别说明                        | 使用教程                                                   |
+|---|---------|---------------|--------------------------------------------------------------------------------------------------------------------------|-------------------------------------|-----------------------------|--------------------------------------------------------|
+| # | 全局配置    | `懒人配置`        | [QuanX.conf](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/config/QuanX.conf)                   | [fmz200](https://github.com/fmz200) | 下载此文件会覆盖原本所有配置              | [点击查看](./QuantumultX/config/00-How-To-Use-Config.md)   |
+| # | 重写      | `去广告合集`       | [chongxie.txt](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt)              | [fmz200](https://github.com/fmz200) | 去广告合集，不包含微博                 | [点击查看](./QuantumultX/rewrite/00-How-To-Use-Rewrite.md) |
+| # | 重写      | `微博去广告`       | [weibo.snippet](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/weibo.snippet)            | [fmz200](https://github.com/fmz200) | 自用的配置                       | [点击查看](./QuantumultX/rewrite/00-How-To-Use-Rewrite.md) |
+| # | 重写      | `获取cookie合集`  | [cookies.snippet](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cookies.snippet)        | [fmz200](https://github.com/fmz200) | 包含NobyDa，chavyleung，Sunert等 | 暂无                                                     |
+| # | 分流      | `去广告合集`       | [fenliuxiu.list](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliuxiu.list)           | [fmz200](https://github.com/fmz200) | 无                           | [点击查看](./QuantumultX/filter/00-How-To-Use-Filter.md)   |
+| # | 分流      | `分流修正`        | [fenliuxiuzheng.list](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliuxiuzheng.list) | [fmz200](https://github.com/fmz200) | 无                           | [点击查看](./QuantumultX/filter/00-How-To-Use-Filter.md)   |
+| # | 分流      | `屏蔽苹果系统更新`    | [apple.snippet](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/apple.snippet)             | [fmz200](https://github.com/fmz200) | 有效                          | [点击查看](./QuantumultX/filter/00-How-To-Use-Filter.md)   |
+| # | 分流      | `OpenAI分流`    | [OpenAI.snippet](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/OpenAI.snippet)           | [fmz200](https://github.com/fmz200) | 初始版本，有问题欢迎反馈                | [点击查看](./QuantumultX/filter/00-How-To-Use-Filter.md)   |
+| # | BoxJS订阅 | `BoxJS订阅`     | [fmz200_boxjs.json](https://raw.githubusercontent.com/fmz200/wool_scripts/main/boxjs/fmz200_boxjs.json)                  | [fmz200](https://github.com/fmz200) | 先查看使用教程                     | [点击查看](https://docs.boxjs.app)                         |
+| # | Task订阅  | `Task订阅`      | [fmz200_tasks.json](https://raw.githubusercontent.com/fmz200/wool_scripts/main/boxjs/fmz200_tasks.json)                  | [fmz200](https://github.com/fmz200) | 需要先获取cookie或token再运行        | 暂无                                                     |
+| # | icons图标 | `icons图标`     | [icons-all.json](https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/icons-all.json)                        | [fmz200](https://github.com/fmz200) | 包含APP，机场，LPL等大量图标           | 暂无                                                     |
+| # | 重写      | `App&小程序净化合集` | [cleanup.snippet](https://github.com/fmz200/wool_scripts/raw/main/QuantumultX/rewrite/cleanup.snippet)                   | [fmz200](https://github.com/fmz200) | 常见的微信小程序净化                  | 暂无                                                     |
 
 > ⚠️ 当远程图标更新时如果你的图表库不更新多半是缓存的问题，请手动清理图标缓存(`点击右下角风车->划到最下面->选择其他设置->找到资源模块`，选择`删除图片缓存`)，并重启 Quantumult X，远程图标会重新下载并生效。
 
-### 2️⃣ Surge配置
 
-> 📍 你可以借助转换工具将重写和分流添加到Surge中，项目地址如下：[Surge](https://github.com/chengkongyiban/Surge)
+### 2️⃣ Loon配置
 
-| #  | 配置类型 | 配置名称       | 配置链接                                                                                             | 作者                                  | 特别说明         | 使用教程 |
-|----|------|------------|--------------------------------------------------------------------------------------------------|-------------------------------------|--------------|------|
-| 01 | 分流   | `OpenAI分流` | [OpenAI.list](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/rule/OpenAI.list) | [fmz200](https://github.com/fmz200) | 初始版本，有问题欢迎反馈 | 无    |
+> 📍 除下方已经转为Loon的配置，你可以借助 [Script-Hub：重写 & 规则集转换](https://github.com/Script-Hub-Org/Script-Hub) 工具将上方的QX重写和分流添加到Loon中。
 
-### 3️⃣ Loon配置
+| # | 配置类型 | 配置名称               | 配置链接                                                                                             | 作者                                  | 特别说明                               | 使用教程 |
+|---|------|--------------------|--------------------------------------------------------------------------------------------------|-------------------------------------|------------------------------------|------|
+| # | 插件   | `去广告合集`            | [rejectAd.plugin](https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/rejectAd.plugin)   | [fmz200](https://github.com/fmz200) | 从QX的分流去广告转换而来                      | 暂无   |
+| # | 插件   | `微博去广告`            | [weibo.plugin](https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/weibo.plugin)         | [fmz200](https://github.com/fmz200) | 无                                  | 暂无   |
+| # | 插件   | `获取cookie&token合集` | [cookies.plugin](https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/cookies.plugin)     | [fmz200](https://github.com/fmz200) | 包含fmz200/NobyDa/chavyleung/Sunert等 | 暂无   |
+| # | 脚本   | `Task订阅`           | [tasks.scripts](https://github.com/fmz200/wool_scripts/raw/main/Loon/script/tasks.scripts)       | [fmz200](https://github.com/fmz200) | 需要先获取cookie或token再运行               | 暂无   |
+| # | 规则   | `AI分流规则合集`         | [AI.list](https://github.com/fmz200/wool_scripts/raw/main/Loon/rule/AI.list)                     | [fmz200](https://github.com/fmz200) | 汇集常用的AI模型                          | 暂无   |
+| # | 规则   | `屏蔽苹果系统更新`         | [apple_update.list](https://github.com/fmz200/wool_scripts/raw/main/Loon/rule/apple_update.list) | [fmz200](https://github.com/fmz200) | 无                                  | 暂无   |
 
-> 📍 你可以借助转换工具将重写和分流添加到Loon中，项目地址如下：[Loon](https://github.com/chengkongyiban/Loon)
-> 
-> 📍 具体步骤为：
-> 
-> 1、安装`QX或Surge重写&规则集转Loon`插件：
-> ```
-> https://raw.githubusercontent.com/chengkongyiban/Loon/main/Loon-Gallery/Rewrite_to_Loon.plugin
-> ```
-> 
-> 2、安装好上面的插件以后，即可把QX的重写和分流安装到Loon上：
-> 
-> ⚠️ 注意：QX重写链接需要在原链接上加上`qx`，分流链接需要加上`r_parser.list`，以便转换插件识别进行解析
-> 
-> 2.1、添加QX的重写：⚠️ 注意，安装到Loon的`插件`模块
-> 
-> 🍒 去广告重写合集
-> ```
-> https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txtqx
-> ```
-> 🍒 微博去广告
-> ```
-> https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/weibo.snippetqx
-> ```
-> 🍒 获取cookie合集
-> ```
-> https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cookies.snippetqx
-> ```
-> 2.2、添加QX的分流：⚠️ 注意，安装到Loon的`规则`模块
-> 
-> 🍒 去广告分流合集
-> ```
-> https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.listr_parser.list
-> ```
 
-| #  | 配置类型   | 配置名称     | 配置链接                                                                                                | 作者                                  | 特别说明                 | 使用教程 |
-|----|--------|----------|-----------------------------------------------------------------------------------------------------|-------------------------------------|----------------------|------|
-| 01 | Task订阅 | `Task订阅` | [loon.task.scripts](https://github.com/fmz200/wool_scripts/raw/main/Loon/scripts/loon.task.scripts) | [fmz200](https://github.com/fmz200) | 需要先获取cookie或token再运行 | 暂无   |
+### 3️⃣ Surge配置
+
+> 📍 除下方已经转为Surge的配置，你可以借助 [Script-Hub：重写 & 规则集转换](https://github.com/Script-Hub-Org/Script-Hub) 工具将上方的QX重写和分流添加到Surge中。
+
+| # | 配置类型 | 配置名称       | 配置链接                                                                                             | 作者                                  | 特别说明              | 使用教程 |
+|---|------|------------|--------------------------------------------------------------------------------------------------|-------------------------------------|-------------------|------|
+| # | 代理规则 | `OpenAI分流` | [OpenAI.list](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/rule/OpenAI.list) | [fmz200](https://github.com/fmz200) | 只有OpenAI，有问题欢迎反馈  | 无    |
+| # | 代理规则 | `AI分流规则合集` | [AI.list](https://github.com/fmz200/wool_scripts/raw/main/Surge/rule/AI.list)                    | [fmz200](https://github.com/fmz200) | 汇集常用的AI模型，有问题欢迎反馈 | 无    |
+
 
 ### 4️⃣ ShadowRocket配置
 
-> 📍 你可以借助转换工具将重写和分流添加到ShadowRocket中，项目地址如下：[ShadowRocket](https://github.com/chengkongyiban/shadowrocket)
+> 📍 你可以借助 [Script-Hub：重写 & 规则集转换](https://github.com/Script-Hub-Org/Script-Hub) 工具将上方的QX重写和分流添加到ShadowRocket中。
+
 
 ### 5️⃣ Stash配置
 
-> 📍 你可以借助转换工具将重写和分流添加到Stash中，项目地址如下：[stash](https://github.com/chengkongyiban/stash)
+> 📍 你可以借助 [Script-Hub：重写 & 规则集转换](https://github.com/Script-Hub-Org/Script-Hub) 工具将上方的QX重写和分流添加到Stash中。
+
+
+### 6️⃣ Egern，LanceX配置
+
+> 📍 你可以借助 [Script-Hub：重写 & 规则集转换](https://github.com/Script-Hub-Org/Script-Hub) 工具将上方的QX重写和分流添加到Egern或LanceX中。
 
 ---
 
-## 🧲 写着玩的
+## 🛺 写着玩的
 
 > 📍 配置前建议先看一看脚本内说明，不要张口就问。
 
@@ -178,11 +164,16 @@
 - [@Tartarus2014](https://github.com/Tartarus2014)
 - [@zmqcherish](https://github.com/zmqcherish)
 
-## 🧚‍♀️ 欢迎星标 🌟
+## ♻️ 项目状态
+
+![Alt](https://repobeats.axiom.co/api/embed/3ed497076151b9b7ba73d5653f7ac9d025314de9.svg "Repobeats analytics image")
+
+
+## 🌟 欢迎星标
 
 ![Star](https://api.star-history.com/svg?repos=fmz200/wool_scripts&type=Date)
 
-### 🧚‍♀️ 访问量统计
+## 💹 访问量统计
 
 ![Visitor Count](https://profile-counter.glitch.me/fmz200/count.svg)
 
