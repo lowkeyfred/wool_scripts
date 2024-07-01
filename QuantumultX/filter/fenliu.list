@@ -977,17 +977,17 @@ host, adm2.autoimg.cn, reject
 host, adm3.autoimg.cn, reject
 
 # > QQ音乐广告
-host, tmeadcomm.y.qq.com, reject
-host, ad.tencentmusic.com, reject
-host, adstats.tencentmusic.com, reject
-host, tmead.y.qq.com, reject
-host-suffix, rqd.qq.com, reject
-host-suffix, wup.imtt.qq.com, reject
-host-suffix, gdt.qq.com, reject
-host-suffix, android.rqd.qq.com, reject
-host-suffix, e.qq.com, reject
-host-suffix, beacon.qq.com, reject
-host-suffix, v.gdt.qq.com, reject
+;host, tmeadcomm.y.qq.com, reject
+;host, ad.tencentmusic.com, reject
+;host, adstats.tencentmusic.com, reject
+;host, tmead.y.qq.com, reject
+;host-suffix, rqd.qq.com, reject
+;host-suffix, wup.imtt.qq.com, reject
+;host-suffix, gdt.qq.com, reject
+;host-suffix, android.rqd.qq.com, reject
+;host-suffix, e.qq.com, reject
+;host-suffix, beacon.qq.com, reject
+;host-suffix, v.gdt.qq.com, reject
 
 
 
